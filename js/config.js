@@ -1,4 +1,4 @@
-// Thay đường dẫn ảnh, nhạc và lời thư ở đây. Ảnh mặc định là tranh minh họa.
+// Thay đường dẫn ảnh, nhạc và lời thư ở đây.
 window.GIFT_CONFIG = {
   "dear": "Em heo ơi,",
   "paragraphs": [
@@ -7,31 +7,31 @@ window.GIFT_CONFIG = {
     "Cảm ơn em đã đến, để những ngày bình thường cũng trở nên đáng nhớ. Món quà nhỏ này là một cái ôm anh gửi qua màn hình.",
     "Hôm nay và những ngày sau nữa, anh vẫn muốn cùng em viết tiếp thật nhiều kỷ niệm đẹp."
   ],
-  "music": "music/love-piano.wav",
+  "music": "music/ban-doi.mp3",
   "photos": [
     {
-      "src": "images/memory-01.svg",
-      "caption": "Một ngày thật dịu dàng"
+      "src": "images/memory-01.jpg",
+      "caption": "Kỷ niệm của chúng mình · 1"
     },
     {
-      "src": "images/memory-02.svg",
-      "caption": "Chỉ cần có em"
+      "src": "images/memory-02.jpg",
+      "caption": "Kỷ niệm của chúng mình · 2"
     },
     {
-      "src": "images/memory-03.svg",
-      "caption": "Thương em nhiều lắm"
+      "src": "images/memory-03.jpg",
+      "caption": "Kỷ niệm của chúng mình · 3"
     },
     {
-      "src": "images/memory-04.svg",
-      "caption": "Những điều bé nhỏ"
+      "src": "images/memory-04.jpg",
+      "caption": "Kỷ niệm của chúng mình · 4"
     },
     {
-      "src": "images/memory-05.svg",
-      "caption": "Hẹn em ngày nắng"
+      "src": "images/memory-05.jpg",
+      "caption": "Kỷ niệm của chúng mình · 5"
     },
     {
-      "src": "images/memory-06.svg",
-      "caption": "Mình cùng viết tiếp nhé"
+      "src": "images/memory-06.jpg",
+      "caption": "Kỷ niệm của chúng mình · 6"
     }
   ]
 };

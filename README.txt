@@ -9,16 +9,16 @@ index.html: nội dung trang
 css/style.css: màu sắc, bố cục, hiệu ứng
 js/config.js: lời thư, danh sách ảnh, nhạc
 js/app.js: điều khiển hoa nở, thư và cá voi
-images/: hoa hồng chân thật và cá voi baby 3D đóng/mở miệng được tạo bằng AI; tranh minh họa và ảnh của bạn
+images/: hoa hồng, cá voi baby 3D và 6 ảnh kỷ niệm (memory-01.jpg đến memory-06.jpg)
 fonts/: Noto Serif và DejaVu Sans dạng WOFF, đóng gói cục bộ, hỗ trợ tiếng Việt; không cần Google Fonts
-music/: âm thanh hoa nở và nhạc piano nguyên bản tạo sẵn
+music/: âm thanh hoa nở, nhạc piano mẫu và bài hát đang được chọn trong config
 
 3. THAY ẢNH, THƯ VÀ NHẠC TRƯỚC KHI GỬI
-- Chép tối đa 6 ảnh vào images/ (ví dụ anh-01.jpg).
-- Mở js/config.js, sửa src của từng ảnh thành images/anh-01.jpg và sửa caption.
+- Sáu ảnh hiện tại là images/memory-01.jpg đến images/memory-06.jpg; đường dẫn đã nối sẵn trong js/config.js.
+- Mở js/config.js để sửa src hoặc caption. Có thể chép tối đa 6 ảnh vào images/ và cập nhật các đường dẫn.
 - Sửa dear và paragraphs để thay lời thư. Giữ nguyên dấu nháy và dấu phẩy trong cấu trúc JavaScript.
-- Chép bài nhạc được phép sử dụng vào music/, sửa music trong config thành music/ten-bai-hat.mp3.
-- Nhạc mặc định là giai điệu piano nhẹ được tạo cho bản này; ảnh mặc định là tranh minh họa, không phải ảnh hai bạn.
+- Bài nhạc hiện tại là music/ban-doi.mp3; đường dẫn đã nối sẵn trong js/config.js.
+- Để đổi nhạc, chép bài được phép sử dụng vào music/ rồi sửa trường music trong config.
 - Nút Cá nhân hóa cho phép chọn thử ảnh/nhạc ngay trên trang. Những lựa chọn đó chỉ có trong phiên xem, KHÔNG được lưu vào ZIP hay gửi sang thiết bị người nhận. Muốn giữ lâu dài, sửa tệp như trên.
 
 4. TRÌNH TỰ
@@ -34,7 +34,7 @@ Không đặt riêng index.html lên hosting mà bỏ quên thư mục ảnh, CS
 6. BẢN NÂNG CẤP MOBILE
 Nền ngân hà tím than với tinh vân hồng và sao. Ảnh hoa/cá voi tối ưu WebP có nền trong suốt. Nụ hoa chuyển sang hoa nở và cá voi chuyển từ đóng sang mở miệng bằng hai khung hình.
 Bố cục riêng cho điện thoại, kể cả màn hình hẹp 320px; nút dễ chạm, ô nhập 16px tránh tự phóng to trên iPhone. Font cục bộ có dấu tiếng Việt.
-Các tranh minh họa kỷ niệm vẫn là mẫu cho tới khi bạn thay ảnh thật của hai người.
+Sáu ảnh kỷ niệm hiện tại được cấu hình trong js/config.js; các tranh minh họa memory-01.svg đến memory-06.svg vẫn được giữ lại trong images/.
 
 7. NÚT NHẬN QUÀ VÀ EMAIL
 Nút dưới cá voi mở hộp quà có số +201026$.
