@@ -1,0 +1,4 @@
+CUTE WHALE — generated with the built-in image generation tool.
+Saved project assets: images/whale-cute-closed.webp, images/whale-cute-open.webp.
+Closed prompt: adorable chubby baby whale, softly rendered premium 3D, periwinkle-blue pastel body, cream belly, rosy cheek, large gentle glossy eye, small closed smile, tail left and head right, wide 2.5:1 composition, transparent background; no wildlife wrinkles, barnacles, teeth or baleen.
+Open edit prompt: same pixel-aligned character and framing; change only the small smile to a gentle open happy mouth with a warm pink interior and a tiny smooth tongue; preserve all other features and transparency; no scary cavern, teeth, baleen or long jaw.
